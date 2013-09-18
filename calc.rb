@@ -1,4 +1,4 @@
-require 'date'
+require'date'
 def q(r);(U-r>U/2.0)?-r : U-r;end
 def o(k);P.index k;end
 P='TKJUO';U=15;h={};l=0;d=Date.today;P.each_char{|c|h[c]=0}
